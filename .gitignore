@@ -1,0 +1,23 @@
+# Nested repositories with their own git tracking
+21 Day Challenge/
+desktop-tutorial/
+labassignment/
+PYTHON ASSIGNMENT 1/
+Python_Programming/
+question practice/
+vivek_21day/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
