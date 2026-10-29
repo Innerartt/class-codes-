@@ -6,11 +6,13 @@ Welcome to the **Class Codes** repository. This repository contains classroom le
 
 ## 📂 Repository Contents
 
+All source files and notebooks are organized inside the **`class files/`** directory:
+
 | File / Notebook | Topic / Description | Concepts Covered |
 | :--- | :--- | :--- |
-| **[`Matrix_Multiplication.ipynb`](Matrix_Multiplication.ipynb)** | Matrix Multiplication (Square & Asymmetric) | Nested Loops, List Comprehensions, `zip(*B)` Transposition, NumPy `@` Operator |
-| **[`class 15-10-2026.py`](class%2015-10-2026.py)** | Student Management System | Object-Oriented Programming (OOP), Classes, Methods, Attributes & Calculations |
-| **[`New Text Document (3).py`](New%20Text%20Document%20(3).py)** | Basic Matrix Multiplication Script | Pure Python 2D List Processing |
+| **[`class files/Matrix_Multiplication.ipynb`](class%20files/Matrix_Multiplication.ipynb)** | Matrix Multiplication (Square & Asymmetric) | Nested Loops, List Comprehensions, `zip(*B)` Transposition, NumPy `@` Operator |
+| **[`class files/class 15-10-2026.py`](class%20files/class%2015-10-2026.py)** | Student Management System | Object-Oriented Programming (OOP), Classes, Methods, Attributes & Calculations |
+| **[`class files/New Text Document (3).py`](class%20files/New%20Text%20Document%20(3).py)** | Basic Matrix Multiplication Script | Pure Python 2D List Processing |
 
 ---
 
@@ -42,7 +44,7 @@ Welcome to the **Class Codes** repository. This repository contains classroom le
 
 ## 🎓 Featured Topic: Object-Oriented Student Records
 
-The [`class 15-10-2026.py`](class%2015-10-2026.py) script demonstrates OOP fundamentals by modeling student performance and academic criteria:
+The [`class 15-10-2026.py`](class%20files/class%2015-10-2026.py) script demonstrates OOP fundamentals by modeling student performance and academic criteria:
 - **Eligibility Check:** Evaluates whether 12th board percentage meets threshold criteria ($< 60\%$).
 - **Subject Average:** Computes average marks across Core Computer Science courses.
 - **Attendance & Placement Score:** Aggregates attendance records and placement readiness scores.
@@ -61,12 +63,12 @@ The [`class 15-10-2026.py`](class%2015-10-2026.py) script demonstrates OOP funda
 ### Running the Notebooks
 To start the Jupyter Notebook environment:
 ```bash
-jupyter notebook Matrix_Multiplication.ipynb
+jupyter notebook "class files/Matrix_Multiplication.ipynb"
 ```
 
 ### Running Python Scripts
 ```bash
-python "class 15-10-2026.py"
+python "class files/class 15-10-2026.py"
 ```
 
 ---
